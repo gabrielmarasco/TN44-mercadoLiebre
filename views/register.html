@@ -63,43 +63,80 @@
       </div>
     </header>
     <main>
-      <form action="/" method="get">
-        <label for="nombre">nombre y apellido</label>
-        <input type="text" name="nombre" id="nombre" />
+      <div class="form-register">
+        <h1>Registro de usuario</h1>
+        <form action="/" method="get">
+          <div class="user-reg">
+            <label for="nombre">Nombre y Apellido</label>
+            <input type="text" name="nombre" id="nombre" />
+          </div>
 
-        <label for="usuario">Nombre de usuario</label>
-        <input type="text" name="usuario" id="usuario" />
+          <div class="password-reg">
+            <label for="usuario">Nombre de usuario</label>
+            <input type="text" name="usuario" id="usuario" />
+          </div>
 
-        <label for="nacimiento">Fecha de nacimiento</label>
-        <input type="date" name="nacimiento" id="nacimiento" />
+          <div class="nacimiento-reg">
+            <label for="nacimiento">Fecha de nacimiento</label>
+            <input type="date" name="nacimiento" id="nacimiento" />
+          </div>
 
-        <label for="domicilio">Domicilio</label>
-        <input type="text" name="domicilio" id="domicilio" />
+          <div class="dom-reg">
+            <label for="domicilio">Domicilio</label>
+            <input type="text" name="domicilio" id="domicilio" />
+          </div>
 
-        <label for="perfil">Perfil del usuario</label>
-        <input type="radio" name="perfil" value="comprar" />Comprar
-        <input type="radio" name="perfil" value="vender" placeholder="vender" />
-        Vender
+          <div class="perfil-reg">
+            <label for="perfil"><h3>Perfil del usuario</h3></label>
+            <div class="perfil-cv-reg">
+              <input type="radio" name="perfil" value="comprar" />Comprar
+              <input
+                type="radio"
+                name="perfil"
+                value="vender"
+                placeholder="vender"
+              />
+              Vender
+            </div>
+          </div>
 
-        <label for="categorias">categorias</label>
-        <input type="checkbox" name="categoria" value="Electro" />Electro
-        <input type="checkbox" name="categoria" value="Moda" />Moda
-        <input type="checkbox" name="categoria" value="Hogar" />Hogar
-        <input type="checkbox" name="categoria" value="Jugueteria" />Jugueteria
-        <input type="checkbox" name="categoria" value="Vida sana" />Vida sana
+          <div class="categorias-reg">
+            <label for="categorias"><h3>Categorias</h3></label>
+            <input type="checkbox" name="categoria" value="Electro" />Electro
+            <input type="checkbox" name="categoria" value="Moda" />Moda
+            <input type="checkbox" name="categoria" value="Hogar" />Hogar
+            <input
+              type="checkbox"
+              name="categoria"
+              value="Jugueteria"
+            />Jugueteria
+            <input type="checkbox" name="categoria" value="Vida sana" />Vida
+            sana
+          </div>
 
-        <label for="avatar">Foto de perfil</label>
-        <input type="file" />
+          <div class="avatar-reg">
+            <label for="avatar"><h3>Foto de perfil</h3></label>
+            <input type="file" />
+          </div>
 
-        <label for="password">Contraseña</label>
-        <input type="password" name="password" id="password" />
+          <div class="repass-reg">
+            <div class="repass-1">
+              <label for="password">Contraseña</label>
+              <input type="password" name="password" id="password" />
+            </div>
 
-        <label for="password">Repetir contraseña</label>
-        <input type="password" name="password" id="password" />
+            <div class="repass-2">
+              <label for="password">Repetir contraseña</label>
+              <input type="password" name="password" id="password" />
+            </div>
+          </div>
 
-        <button type="reset">Limpiar</button>
-        <button type="submit">Enviar</button>
-      </form>
+          <div class="btn-reg">
+            <button type="reset">Limpiar</button>
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
     </main>
     <footer>
       <ul class="ul-footer">

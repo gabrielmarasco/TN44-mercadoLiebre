@@ -289,6 +289,129 @@ form .btn-enviar button:hover{
 form .new-user p{
      padding: 5px;
 }
+/* --------------- RREGISTER------------ */
+
+.form-register{
+          width: 350px;
+               height: 800px;
+               border: 1px solid black;
+               border-radius: 10px;
+               margin: 150px auto 150px auto;
+               background-color: #fff;
+               box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.form-register h1{
+     text-align: center;
+     padding: 10px;
+     border-bottom: 1px solid black;
+}
+
+
+
+form .user-reg{
+     display: flex;
+     flex-direction: column;
+     padding: 10px;
+     text-align: center;
+
+}
+form .user-reg input{
+     margin: 2px;
+}
+
+form .password-reg{
+          display: flex;
+               flex-direction: column;
+               padding: 10px;
+               text-align: center;
+}
+
+form .nacimiento-reg{
+          display: flex;
+               flex-direction: column;
+               padding: 10px;
+               text-align: center;
+}
+
+form .dom-reg{
+          display: flex;
+               flex-direction: column;
+               padding: 10px;
+               text-align: center;
+}
+
+form .perfil-reg{
+          display: flex;
+               flex-direction: column;
+               padding: 10px;
+               text-align: center;
+}
+
+form .perfil-reg label{
+     border-bottom: 1px solid black;
+     margin-bottom: 10px;
+     padding-bottom: 5px;
+}
+
+form .categorias-reg{
+          display: flex;
+          flex-flow: column;
+               padding: 10px;
+
+}
+
+form .categorias-reg label{
+     text-align: center;
+     margin-bottom: 10px;
+     padding-bottom: 5px;
+     border-bottom: 1px solid black;
+}
+
+
+form .avatar-reg{
+          display: flex;
+               flex-direction: column;
+               padding: 10px;
+               text-align: center;
+}
+
+form .avatar-reg input{
+     padding-top: 10px;
+}
+
+form .avatar-reg label{
+     border-bottom: 1px solid black;
+     padding-bottom: 5px;
+}
+
+form .repass-reg{
+          display: flex;
+          flex-direction: column;
+          padding: 10px;
+          text-align: center;
+}
+
+form .repass-reg .repass-1{
+     padding: 5px;
+}
+
+form .repass-reg .repass-2 {
+     padding: 5px;
+}
+
+form .btn-reg{
+          display: flex;
+          justify-content: space-evenly;
+               padding: 10px;
+               text-align: center;
+}
+
+form .btn-reg button{
+     padding: 5px;
+     color: #FFF;
+     background-color: var(--celeste);
+}
 
 /*  *****MEDIA QUERIES*****  */
 
